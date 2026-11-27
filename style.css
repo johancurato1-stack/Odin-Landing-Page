@@ -105,8 +105,8 @@ a {
 
 .button {
   display: inline-block;
-  background-color: #1d5fc7;
-  color: white;
+  background-color: #174ea6;
+  color: #ffffff;
   padding: 8px 28px;
   border-radius: 8px;
   font-weight: 700;
@@ -134,7 +134,7 @@ a {
 ============================== */
 
 .information {
-  background-color: white;
+  background-color: #ffffff;
   padding: 36px 0 88px;
 }
 
@@ -206,8 +206,8 @@ a {
 }
 
 .cta-content {
-  background-color: #1d5fc7;
-  color: white;
+  background-color: #174ea6;
+  color: #ffffff;
   padding: 36px 60px;
   border-radius: 8px;
 
@@ -218,6 +218,7 @@ a {
 }
 
 .cta-text h2 {
+  color: #ffffff;
   font-size: 18px;
   font-weight: 900;
 }
@@ -228,8 +229,20 @@ a {
 }
 
 .cta-button {
-  border: 2px solid white;
+  background-color: #174ea6;
+  color: #ffffff;
+  border: 2px solid #ffffff;
   min-width: 100px;
+}
+
+/* ==============================
+   Keyboard Accessibility
+============================== */
+
+a:focus-visible {
+  outline: 3px solid #facc15;
+  outline-offset: 4px;
+  border-radius: 4px;
 }
 
 /* ==============================
