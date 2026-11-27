@@ -105,7 +105,7 @@ a {
 
 .button {
   display: inline-block;
-  background-color: #3882f6;
+  background-color: #1d5fc7;
   color: white;
   padding: 8px 28px;
   border-radius: 8px;
@@ -206,7 +206,7 @@ a {
 }
 
 .cta-content {
-  background-color: #3882f6;
+  background-color: #1d5fc7;
   color: white;
   padding: 36px 60px;
   border-radius: 8px;
@@ -224,7 +224,7 @@ a {
 
 .cta-text p {
   font-size: 14px;
-  color: #e5e7eb;
+  color: #ffffff;
 }
 
 .cta-button {
